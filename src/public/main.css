@@ -1,0 +1,56 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.chat-container {
+  max-width: 500px;
+    margin:60px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.chat {
+    padding: 14px 0;
+    margin:0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color:#555;
+    height: 20vh;
+  overflow-y: scroll;
+}
+
+.chat .output p {
+  padding: 5px 0;
+  margin:10px 20px;
+  
+}
+.chat .actions p {
+    padding: 11px 0;
+    margin:0 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.chat-container input {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border:none;
+    background: #eee;
+    outline: none;
+    width:90%;
+    display: block;
+    font-size:16px;
+    
+}
+.chat-container button {
+    border: none;
+    border: 1px solid blue;
+    background: transparent;
+    color:blue;
+    cursor : pointer;
+    padding: 10px;
+    
+    border-radius: 4px;
+    display:block;
+    width:98%;
+    margin:5px;
+    font-size: 18px;
+}
